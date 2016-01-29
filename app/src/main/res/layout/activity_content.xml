@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.santoshmandadi.tryanimations.ContentActivity">
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:transitionName="@string/transition_name"/>
+    <TextView
+        android:id="@+id/text_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transitionName="@string/transition_name"
+        android:text="This transition tracks changes to the visibility of target views in the start and end scenes and moves views in or out from one of the edges of the scene. Visibility is determined by both the setVisibility(int) state of the view as well as whether it is parented in the current view hierarchy. Disappearing Views are limited as described in onDisappear(android.view.ViewGroup, TransitionValues, int, TransitionValues, int)." />
+
+</LinearLayout>

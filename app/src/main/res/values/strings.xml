@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TryAnimations</string>
+    <string name="transition_name">myTextTransition</string>
+</resources>
